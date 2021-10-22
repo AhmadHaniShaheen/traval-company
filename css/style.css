@@ -1,0 +1,379 @@
+@font-face {
+    font-family: MonteCarlo-Regular;
+    src: url(font/MonteCarlo-Regular);
+}
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#head{
+    background:url('../img/traval.png') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.fornav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(179, 179, 179);
+    flex-wrap: wrap;
+}
+.topnav{
+    display: flex;
+}
+
+.forlogo{
+    flex-basis: 3%;
+}
+.logo{
+    font-size: 40px;
+    margin: 10px auto;
+}
+.forlogo span{
+    margin: 4px;
+    
+}
+.fortitel{
+    flex-basis: 45%;
+}
+
+.title{
+    text-transform: uppercase;
+    padding-top: 8.5px;
+    font-weight: 1000;
+    line-height: 0.8;
+    font-family: MonteCarlo;
+}
+.forlinks{
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.link{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.link:hover{
+    color: #000;
+}
+.but{
+    width: 10%;
+}
+.but1{
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 7.5px;
+    padding: 10px;
+}
+.text {
+    text-align: center;
+    align-items: center;
+    margin: 36vh;
+    color: wheat;
+}
+.text h2{
+    font-weight: 1000px;
+}
+.text h1{
+    font-size: 50px;
+    color: wheat;
+    font-family: monteCarlo;
+
+}
+.but1:hover{
+    background-color: white;
+}
+
+
+.first{
+    border:1px solid deepskyblue;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-left: 10px;
+    
+}
+.first:hover{
+    background-color: rgb(85, 88, 88);
+}
+.second{
+    border:1px solid deepskyblue;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 150px;
+}
+.second:hover{
+    background-color: rgb(85, 88, 88);
+}
+main{
+    margin-top: 70px;
+}
+.ser{
+    width: 200px;
+    padding-top: 15px;
+    text-align: center;
+    margin: 5px auto;
+}
+.serv{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+ .allBoxes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .box1{
+        width: 23%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        
+    
+    }
+    .img1{
+        width: 90%;
+        height: 215px;
+        border-radius: 5px;
+    }
+
+
+.adv{
+    background-color: white;
+    padding:5px;
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    
+}
+.part1{
+    width: 50%;
+}
+.title2{
+    text-transform: uppercase;
+    padding-left: 50px;
+    padding-top: 8.5px;
+    font-size: 40px;
+    line-height: 0.8;
+    font-weight: bold;
+    
+
+}
+
+.firstbox{
+    margin: 10px;
+    width: 40%;
+    height: 70px;
+    text-transform: capitalize;
+    background-color: #ddd;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 2.5;
+}
+
+.sec_box{
+    margin: 10px;
+    width: 50%;
+    height: 70px;
+    text-transform: capitalize;
+    background-color: #ddd;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 2.5;
+}
+.thard_box{
+    margin: 10px;
+    width: 60%;
+    height: 70px;
+    text-transform: capitalize;
+    background-color: #ddd;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 2.5;
+}
+.forth_box{
+    margin: 10px;
+    width: 70%;
+    height: 70px;
+    text-transform: capitalize;
+    background-color: #ddd;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 2.5;
+}
+.part2{
+    width: 50%;
+    margin-top: 35px;
+    
+}
+.map{
+    margin-left: 80px;
+    margin-top: 60px;
+    height: 250px;
+    width: 50%;
+}
+.location{
+    text-transform: capitalize;
+    font-size: 30px;
+    background-color: #ddd;
+    width: 50%;
+    text-align: center;
+    margin-left: 10%;
+}
+.headtitle{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    background-color: #ddd;
+    width: 40%;
+    margin-left: 25%;
+    
+}
+
+.says{
+    margin-top: 70px;
+}
+.headtitle{
+    margin-bottom: 20px;
+}
+.aboutus{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+.aboutus1{
+    width: 23%;
+    height: auto;
+    padding: 5px;
+    margin: 0 2.5%;
+}
+.bus_imag1{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+}
+.bus_h1{
+    font-size: 25px;
+}
+.p1{
+    width: 100%;
+}
+#footer{
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('../img/traval.png') no-repeat center center;
+    height: 230px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    margin-top: 70px;
+    
+}
+.sideinfoside{
+    width: 33%;
+}
+.title3{
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: beige;
+    text-transform: uppercase;
+    height: 50px;
+    font-family: cursive;
+}
+.site-about{
+    color: white;
+    margin: 25px;
+    width: 100%;
+}
+.midia{
+    display: flex;
+    justify-content: space-around;
+}
+.social{
+    font-size: 25px;
+    color: white;
+}
+
+.links{
+    width: 33%;
+}
+.side-title{
+    margin: 10px;
+    width: 90%;
+    /* text-align: center; */
+    /* align-items: center; */
+    font-size: 30px;
+    color: beige;
+    text-transform: uppercase;
+    height: 50px;
+    font-family: cursive;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+.qlinks{
+    margin-top: 13px;
+    margin-left: 60px;
+    padding-left: 5px;
+    font-size: 18px;
+    color: white;
+}
+.qlink-item{
+    padding-bottom: 15px;
+    color: beige;
+}
+.li{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.sign{
+    width: 33%;
+    padding: 15px;
+}
+.text5{
+    padding: 10px;
+    text-align: center;
+}
+.tex{
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+}
+.but2{
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 48%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.but2:hover{
+    color: black;
+    background-color: white;
+}
+
+

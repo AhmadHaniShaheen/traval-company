@@ -1,0 +1,561 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #head{
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .fornav{
+        width: 100%;
+        height: 50px;
+        background-color: rgb(179, 179, 179);
+    }
+    .forlogo{
+        width: 100%;
+    }
+    .forlinks{
+        display: none;
+    }
+    .but{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .text{
+        color: white;
+        margin: 20vh;
+    }
+    .allBoxes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .box1{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+    
+    }
+    .box1 h3{
+        text-align: center;
+        width: 100%;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .box1 p{
+        width: 100%;
+        margin: 10px;
+    }
+    .img1{
+        width: 90%;
+        height: 215px;
+        border-radius: 5px;
+    }
+    .adv{
+        display: block;
+    }
+    .part1{
+        width: 100%;
+    }
+    .title2{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .firstbox{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 16px;
+        height: auto;
+    }
+    .sec_box{
+        font-size: 16px;
+        height: auto;
+    }
+    .thard_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .forth_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .part2{
+        width: 100%;
+        margin-top: 60px;
+        
+    }
+    .map{
+        margin-left: 80px;
+        margin-top: 60px;
+        height: 250px;
+        width: 80%;
+    }
+    .location{
+        text-transform: capitalize;
+    font-size: 30px;
+    background-color: #ddd;
+    width: 84%;
+    margin: 0px 70px;
+    }
+    .says{
+        margin-top: 70px;
+    }
+    .headtitle {
+        font-size: 30px;
+        width: 50%;
+    }
+    .aboutus{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        justify-content: space-around;
+        height: auto;
+    }
+    .aboutus1 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      
+    }
+    .bus_imag1{
+        width: 40%;
+        height: 40%;
+        border-radius: 20%;
+    }
+    .bus_h1{
+        margin: 10px;
+        text-transform: capitalize;
+        height: 150px;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .p1{
+        width: 100%;
+    }
+    #footer{
+        display: block;
+        height: auto;
+        
+    }
+    .sideinfoside{
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+    .sign{
+        width: 100%;
+    }
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .forlinks{
+        display: none;
+    }
+    .but{
+        width: 50%;
+        display: flex;
+    }
+    .but1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 65%;
+        justify-content: flex-end;
+    }
+    .allBoxes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .box1{
+        width: 46%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        
+    
+    }
+    .box1 h3{
+        text-align: center;
+        width: 100%;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .box1 p{
+        width: 100%;
+        margin: 10px;
+    }
+    .img1{
+        width: 90%;
+        height: 215px;
+        border-radius: 5px;
+    }
+    .adv{
+        display: block;
+    }
+    .part1{
+        width: 100%;
+    }
+    .title2{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .firstbox{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 16px;
+        height: auto;
+    }
+    .sec_box{
+        font-size: 16px;
+        height: auto;
+    }
+    .thard_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .forth_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .part2{
+        width: 100%;
+        margin-top: 60px;
+        
+    }
+    .map{
+        margin-left: 80px;
+        margin-top: 60px;
+        height: 250px;
+        width: 80%;
+    }
+    .location{
+        text-transform: capitalize;
+    font-size: 30px;
+    background-color: #ddd;
+    width: 84%;
+    margin: 0px 70px;
+    }
+    .says{
+        margin-top: 70px;
+    }
+    .headtitle {
+        font-size: 30px;
+        width: 50%;
+    }
+    .aboutus{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        justify-content: space-around;
+        height: auto;
+    }
+    .aboutus1 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .bus_imag1{
+        width: 50%;
+        height: 70%;
+        border-radius: 50%;
+    }
+    .bus_h1{
+        margin: 10px;
+        text-transform: capitalize;
+        height: 150px;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .p1{
+        width: 100%;
+    }
+    #footer{
+        display: block;
+        height: auto;
+        
+    }
+    .sideinfoside{
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+    .sign{
+        width: 100%;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .forlinks{
+        display: none;
+    }
+    .but{
+        width: 50%;
+        display: flex;
+    }
+    .but1{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 65%;
+        justify-content: flex-end;
+    }
+    .allBoxes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .box1{
+        width: 46%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        
+    
+    }
+    .box1 h3{
+        text-align: center;
+        width: 100%;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .box1 p{
+        width: 100%;
+        margin: 10px;
+    }
+    .img1{
+        width: 90%;
+        height: 215px;
+        border-radius: 5px;
+    } 
+    .adv{
+        display: block;
+    }
+    .part1{
+        width: 100%;
+    }
+    .title2{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .firstbox{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 16px;
+        height: auto;
+    }
+    .sec_box{
+        font-size: 16px;
+        height: auto;
+    }
+    .thard_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .forth_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .part2{
+        width: 100%;
+        margin-top: 60px;
+        
+    }
+    .map{
+        margin-left: 80px;
+        margin-top: 60px;
+        height: 250px;
+        width: 80%;
+    }
+    .location{
+        text-transform: capitalize;
+    font-size: 30px;
+    background-color: #ddd;
+    width: 84%;
+    margin: 0px 70px;
+    }
+    .says{
+        margin-top: 70px;
+    }
+    .headtitle {
+        font-size: 30px;
+        width: 50%;
+    }
+    .aboutus{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+        justify-content: space-around;
+        height: auto;
+    }
+    .aboutus1 {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .bus_imag1{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+    }
+    .bus_h1{
+        margin: 10px;
+        text-transform: capitalize;
+        height: 150px;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .p1{
+        width: 100%;
+    }
+     }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .allBoxes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .box1{
+        width: 30%;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px;
+        
+    
+    }
+    .box1 h3{
+        text-align: center;
+        width: 100%;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .box1 p{
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .img1{
+        width: 90%;
+        height: 215px;
+        border-radius: 5px;
+    }
+    .adv{
+        display: block;
+    }
+    .part1{
+        width: 100%;
+    }
+    .title2{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .firstbox{
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 16px;
+        height: auto;
+    }
+    .sec_box{
+        font-size: 16px;
+        height: auto;
+    }
+    .thard_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .forth_box{
+        height:auto;
+        font-size: 16px;
+    }
+    .part2{
+        width: 100%;
+        margin-top: 60px;
+        
+    }
+    .map{
+        margin-left: 80px;
+        margin-top: 60px;
+        height: 250px;
+        width: 80%;
+    }
+    .location{
+        text-transform: capitalize;
+    font-size: 30px;
+    background-color: #ddd;
+    width: 84%;
+    margin: 0px 70px;
+    }
+    
+ }
+
+/* /Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .allBoxes{
+        display: flex;
+        justify-content: space-around;
+    }
+    .box1{
+        width: 20%;
+        height: auto;
+        overflow: hidden;
+        margin-left: 4%;
+        padding-left: 10px;
+        
+    
+    }
+    .img1{
+        width: 150px;
+        height: 170px;
+        width: fit-content;
+        border-radius: 5px;
+    }
+    .box1 h3{
+        text-align: center;
+        margin: 5px;
+    }
+    .box1 .p1{
+        width: 100%;
+    }
+ }
